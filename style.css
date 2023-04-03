@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    padding: 2%;
+}
+
+
+.basefont {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+
+.box {
+    background-color: rgb(18, 19, 0);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 20px;
+    font-weight: bold;
+    margin-right: 5px;
+    transition: 0.5s;
+    text-align: center;
+
+}
+
+
+
+
+.box:hover,
+.circle:hover,.form:hover {
+    background-color: aliceblue;
+    color: rgb(18, 19, 0);
+    transition: 0.5s;
+    border: 1px solid rgb(18, 19, 0);
+    cursor: pointer;
+}
+
+
+.circle {
+    transition: 0.5s;
+    border-radius: 100%;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(18, 19, 0);
+    color: white;
+    font-size: 1.5em;
+    margin-right: 10px;
+}
+
+
+.done {
+    padding: 5px 30px;
+    background-color: orange;
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    font-size: 1.5em;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.done:hover {
+    cursor: pointer;
+    background-color: white;
+    color: orange;
+    transition: 0.5s;
+}
+
+
+label
+{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.form
+{
+    padding: 3px 10px;
+    background-color: rgb(18, 19, 0);
+    color: white;
+    font-weight: bold;
+}
+
+
+
